@@ -27,13 +27,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="TgI-l2-3Ka">
+                                <rect key="frame" x="0.0" y="610" width="414" height="252"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="251" id="XL5-oL-tNd"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TgI-l2-3Ka" secondAttribute="trailing" id="3eI-AC-DwG"/>
                             <constraint firstItem="u4g-PX-Ote" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="4xG-gy-D2P"/>
+                            <constraint firstItem="TgI-l2-3Ka" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Nua-6F-Zvk"/>
                             <constraint firstItem="u4g-PX-Ote" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cJu-PI-Rkv"/>
+                            <constraint firstItem="TgI-l2-3Ka" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="dgG-Yb-xcF"/>
                             <constraint firstItem="kiD-N6-w9P" firstAttribute="top" secondItem="u4g-PX-Ote" secondAttribute="bottom" constant="39" id="evG-VT-2yn"/>
                             <constraint firstItem="kiD-N6-w9P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="74" id="h2u-RQ-bhf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kiD-N6-w9P" secondAttribute="trailing" symbolic="YES" id="zFN-SE-3Gd"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -43,4 +53,7 @@
             <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="56" height="64"/>
+    </resources>
 </document>
