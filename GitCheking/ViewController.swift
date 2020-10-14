@@ -15,5 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         print("Nothing to write freec ode please tell me where is the ball of epic senario")
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+    }
 }
 
