@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Nothing to write freec ode please tell me where is the ball of ")
+        print("Feel free to give feed back ")
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
